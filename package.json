@@ -1,8 +1,8 @@
 {
-  "name": "apollo-server-monorepo",
+  "name": "apollo-server-packages",
   "private": true,
   "license": "MIT",
-  "repository": "github:apollographql/apollo-server",
+  "repository": "github:limma/apollo-server",
   "scripts": {
     "clean": "git clean -dfqX -- ./node_modules **/{dist,node_modules}/",
     "compile": "tsc --build tsconfig.build.json",
@@ -134,5 +134,6 @@
     "projects": [
       "<rootDir>/packages/*"
     ]
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
