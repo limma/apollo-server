@@ -1,15 +1,15 @@
 {
-  "name": "apollo-datasource-rest",
+  "name": "@limma/apollo-datasource-rest",
   "version": "0.2.3-alpha.0",
   "author": "opensource@apollographql.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollographql/apollo-server/tree/master/packages/apollo-datasource-rest"
+    "url": "https://github.com/limma/apollo-server/tree/master/packages/apollo-datasource-rest"
   },
-  "homepage": "https://github.com/apollographql/apollo-server#readme",
+  "homepage": "https://github.com/limma/apollo-server#readme",
   "bugs": {
-    "url": "https://github.com/apollographql/apollo-server/issues"
+    "url": "https://github.com/limma/apollo-server/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
