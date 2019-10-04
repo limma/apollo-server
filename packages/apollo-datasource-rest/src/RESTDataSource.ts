@@ -227,7 +227,9 @@ export abstract class RESTDataSource<TContext = any> extends DataSource {
           typeof (options.body as any).toJSON === 'function'))
     ) {
       options.body = JSON.stringify(options.body);
-      options.headers.set('Content-Type', 'application/json');
+      if (!options.headers.get('Content-Type')) {
+        options.headers.set('Content-Type', 'application/json');
+      }
     }
 
     const request = new Request(String(url), options);
